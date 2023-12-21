@@ -24,7 +24,7 @@ Index.html is html file used to create the interactive map, the static folder co
 
 The first step in creating the map is to visit the USGS GeoJson feed website and choose which json we wish to visualize. For this visualization, we are using the the json containing earthquake data from the last 7 days. The website will look like the following image:
 
-![4-USGS.png](Earthquake_Visualization/Images/1-USGS.png)
+![4-USGS.png](Earthquake_Visualization/Images/4-USGS.png)
 
 After visiting this website, we will then choose a json we wish to visualize. As stated before, we are using the the json containing earthquake data from the last 7 days. This will look like the following:
 
