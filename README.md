@@ -30,6 +30,25 @@ After visiting this website, we will then choose a json we wish to visualize. As
 
 ![3-JSON](Earthquake_Visualization/Images/3-JSON.png)
 
+Import and visualize the data by doing the following:
+
+Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
+
+Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.
+
+Hint: The depth of the earth can be found as the third coordinate for each earthquake.
+
+Include popups that provide additional information about the earthquake when its associated marker is clicked.
+
+Create a legend that will provide context for your map data.
+
+The following code was added to the css file to actually show the legend, without it, it would not show up:
+
+[5-Legend.png](Earthquake_Visualization/Images/5-Legend.png)
+
+Your visualization should look something like the following map:
+
+[2-My_Map](Earthquake_Visualization/Images/2-My_Map.png)
 
 
 ## Resources
@@ -41,4 +60,9 @@ https://colorbrewer2.org/
 **<ins>USGS GeoJSON Feed:<ins>**
 
 https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+
+**<ins>Legend Help:<ins>**
+
+https://stackoverflow.com/questions/38329785/leaflet-legend-not-showing
+
 
